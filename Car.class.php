@@ -41,7 +41,7 @@ class Car
 
     public function information()
     {
-        return  "車体の車種:" . $this->name . "\n" .
+        return "車体の車種:" . $this->name . "\n" .
                 "車体番号:" . $this->number . "\n" .
                 "カラー:" . $this->color . "\n";
     }
