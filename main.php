@@ -19,7 +19,7 @@ echo $car1->getColor();
 echo "\n";
 
 // 車の情報を表示
-echo $car1->selfIntroduction();
+echo $car1->information();
 echo "\n";
 
 // 車名(車種)を更新
@@ -38,4 +38,4 @@ echo $car1->getColor();
 echo "\n";
 
 // 車の情報を表示
-echo $car1->selfIntroduction();
+echo $car1->information();

@@ -39,10 +39,10 @@ class Car
         $this->color = $color;
     }
 
-    public function selfIntroduction()
+    public function information()
     {
-        return "車体の車種:" . $this->name . "\n" .
-        "車体番号:" . $this->number . "\n" .
-        "カラー" . $this->color . "\n" ;
+        return  "車体の車種:" . $this->name . "\n" .
+                "車体番号:" . $this->number . "\n" .
+                "カラー:" . $this->color . "\n";
     }
 }
