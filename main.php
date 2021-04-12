@@ -3,8 +3,9 @@
 // 以下を実行した時にエラーがでないようにして下さい。
 // Carクラスのインスタンスを生成
 // 引数 : 車名(車種)、車体番号、カラー
-$car1 = new Car('ランクル', 100, 'black');
+require_once __DIR__ . '/Car.class.php';
 
+$car1 = new Car('ランクル', 100, 'black');
 // 車名(車種)を取得
 echo $car1->getName();
 echo "\n";
@@ -18,7 +19,7 @@ echo $car1->getColor();
 echo "\n";
 
 // 車の情報を表示
-echo $car1->information();
+echo $car1->selfIntroduction();
 echo "\n";
 
 // 車名(車種)を更新
@@ -37,4 +38,4 @@ echo $car1->getColor();
 echo "\n";
 
 // 車の情報を表示
-echo $car1->information();
+echo $car1->selfIntroduction();
